@@ -48,8 +48,8 @@ module.exports = {
 EOL
 echo "Hardhat configuration completed."
 
-read -p "Enter the token name: " TOKEN_NAME
-read -p "Enter the token symbol: " TOKEN_SYMBOL
+read -p "Enter the token name: " LEGION
+read -p "Enter the token symbol: " LGN
 
 echo "Creating Token.sol contract..."
 mkdir -p contracts
